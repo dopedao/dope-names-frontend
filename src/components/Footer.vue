@@ -10,6 +10,10 @@
     <router-link v-if="isUserMinterAdmin || isUserRoyaltyFeeUpdater || isUserTldAdmin" to="/admin">Admin</router-link>
     <span v-if="isUserMinterAdmin || isUserRoyaltyFeeUpdater || isUserTldAdmin"> | </span>
 
+    <a target="_blank" href="https://dopewars.gg/">Dope Wars</a> | 
+
+    <a target="_blank" href="https://opensea.io/collection/dope-name-service">OpenSea</a> | 
+
     <a target="_blank" href="https://punk.domains">Powered by Punk Domains</a>
   </div>
 
@@ -17,7 +21,7 @@
 
     <a class="icons" href="https://dope-wars.notion.site/Dope-Wiki-e237166bd7e6457babc964d1724befb2" target="_blank"><i class="bi bi-journal-text"></i></a>
 
-    <a class="icons" target="_blank" href="https://github.com/punk-domains"><i class="bi bi-github"></i></a>
+    <a class="icons" target="_blank" href="https://github.com/dopedao/dope-names-frontend"><i class="bi bi-github"></i></a>
 
     <a class="icons" target="_blank" href="https://discord.com/invite/dopewars"><i class="bi bi-discord"></i></a>
 

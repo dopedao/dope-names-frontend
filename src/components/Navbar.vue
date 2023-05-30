@@ -50,7 +50,9 @@
                 <router-link tag="li" class="dropdown-item" to="/send-tokens">Send tokens</router-link>
                 <!-- <router-link tag="li" class="dropdown-item" to="/about">About</router-link> -->
                 <!-- <router-link tag="li" class="dropdown-item" to="/browser">Browser extension</router-link> -->
+                <li class="dropdown-item" @click="openUrl('https://dopewars.gg/')">Dope Wars Main Page</li>
                 <li class="dropdown-item" @click="openUrl('https://dope-wars.notion.site/Dope-Wiki-e237166bd7e6457babc964d1724befb2')">Docs</li>
+                <li class="dropdown-item" @click="openUrl('https://opensea.io/collection/dope-name-service')">OpenSea</li>
                 <li class="dropdown-item" @click="logout">Disconnect</li>
               </ul>
             </div>
@@ -59,6 +61,10 @@
 
             <div v-if="isActivated" class="btn-group mx-2 navbar-menu-btn">
               <router-link tag="button" class="btn btn-primary" to="/send-tokens">Send Tokens</router-link>
+            </div>
+
+            <div class="btn-group mx-2 navbar-menu-btn">
+              <a class="btn btn-primary" href="https://dopewars.gg/" target="_blank">Dope Wars</a>
             </div>
           </div>
         </div>
