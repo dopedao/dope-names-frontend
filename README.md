@@ -1,6 +1,6 @@
 # Dope Name Service frontend
 
-Frontend for .dome name service powered by the [Punk Domains protocol](https://punk.domains).
+Frontend for .dope name service powered by the [Punk Domains protocol](https://punk.domains).
 
 ## Quickstart
 
